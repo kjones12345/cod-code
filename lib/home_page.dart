@@ -9,7 +9,7 @@ class HomePage extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      backgroundColor: homePageBackgroundColor,
+      backgroundColor: homePageBackgroundColor.value,
       appBar: const Header(title: Text('Home')),
     );
   }
